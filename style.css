@@ -1,0 +1,33 @@
+@import url(custom-icon.css);
+
+body {margin: 0;}
+
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 20%;
+  padding-right: 10%;
+  overflow: hidden;
+  background-color: #3383FF;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 22px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover {color: #111;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 850px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
